@@ -1,6 +1,7 @@
 import 'package:belajar_api/controllers/controller_post.dart';
 import 'package:belajar_api/models/model_post.dart';
 import 'package:belajar_api/pages/detail_post.dart';
+import 'package:belajar_api/pages/album.dart';
 import 'package:flutter/material.dart';
 
 class PostPage extends StatefulWidget {
@@ -155,7 +156,7 @@ class _PostPageState extends State<PostPage> {
                           ),
                         ),
                         
-                        // Action buttons (like Instagram)
+                    
                         Padding(
                           padding: const EdgeInsets.all(12.0),
                           child: Row(
@@ -204,7 +205,7 @@ class _PostPageState extends State<PostPage> {
                               ),
                               const SizedBox(height: 4),
                               
-                              // Post body (truncated)
+             
                               Text(
                                 posts[index].body.length > 100
                                     ? '${posts[index].body.substring(0, 100)}... more'

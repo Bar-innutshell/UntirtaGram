@@ -32,7 +32,7 @@ class _DetailPostPageState extends State<DetailPostPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Post ${widget.post.id}'),
-        backgroundColor: Colors.white,
+        backgroundColor:const Color.fromARGB(201, 230, 234, 18),
         foregroundColor: Colors.black,
         elevation: 1,
       ),
